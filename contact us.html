@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contant Us</title>
+    <style>
+        body{
+            background:url(./images/IMG_20220602_091555_701.jpg);
+            background-repeat: no-repeat;
+            /* background-position: center; */
+            background-size: cover;
+           
+        }
+
+        .container{
+            font-weight: bold;
+            font-size: 18px;
+            background-color:transparent;
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            align-items: right;
+            margin: auto;
+            margin-top: 100px;
+            width: 350px;
+            height: 500px;
+            border-top: 2px solid rgb(178, 219, 18);
+            border-bottom: 2px solid green;
+            border-left: 2px solid blue;
+            border-right: 2px solid rgb(93, 6, 98);
+            border-radius: 30px;
+            color: white;
+        }
+        h2{
+            text-align: center;
+        }
+        .container{
+            box-shadow: 20px, 3px, 0px violet;
+        }
+    
+        input{
+            border-radius: 8px;
+            padding: 13px;
+            font-size: 15px;
+        }
+        select{
+            padding: 10px;
+            border-radius: 15px;
+            font-weight: bolder;
+            font-size: 25;
+        }
+        #button{
+            margin-top: 20px;
+            font-weight: bold;
+            padding: 8px;
+            font-size: 18px;
+            background-color: rgb(34, 94, 34);
+            color: white;
+            border-radius: 18px;
+        }
+        #button:hover{
+            transform: scale(0.8);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Join with Shahzad</h2>
+        Name<input type="text" placeholder="Enter your name">
+        Address<input type="text" placeholder="Enter your currently address">
+       Enquiry
+       <select id="enquiry">
+        <option value="">Choose Option</option>
+        <option value="">Web site Creation</option>
+        <option value="">Web Maintance</option>
+        <option value="">Web AMC</option>
+        <option value="">App </option>
+       </select>
+        Contact No<input type="number" placeholder="Contact Number">
+        <button id="button">Sumbit Now</button>
+
+    </div>
+    
+</body>
+</html>
